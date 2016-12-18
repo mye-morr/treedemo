@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<astreeview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<astreeview-nodes>
+		<astreeview-node node-text="General Motor" node-value="General Motor" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" target="text" navigate-url="text" tooltip="text">
+			<astreeview-nodes>
+				<astreeview-node node-text="Europe" node-value="Europe" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text">
+					<astreeview-nodes>
+						<astreeview-node node-text="&lt;span isTreeNodeChild=&quot;true&quot; style=&quot;color: red;&quot;&gt;Luncheon Voucher&lt;/span&gt;" node-value="Luncheon Voucher" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="Ticket Alimentación" node-value="Ticket Alimentación" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="Ticket Transport" node-value="Ticket Transport" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="Académie du Service" node-value="Académie du Service" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="Tesorus" node-value="Tesorus" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="Davidson Trahaire" node-value="Davidson Trahaire" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="Bien-Etre à la Carte" node-value="Bien-Etre à la Carte" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="Ticket CESU" node-value="Ticket CESU" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="Childcare vouchers" node-value="Childcare vouchers" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="Eyecare vouchers" node-value="Eyecare vouchers" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="Commuter Check" node-value="Commuter Check" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+					</astreeview-nodes>
+				</astreeview-node>
+				<astreeview-node node-text="Public benefits" node-value="Public benefits" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text">
+					<astreeview-nodes>
+						<astreeview-node node-text="Ticket Service" node-value="Ticket Service" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="Ticket Card" node-value="Ticket Card" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+					</astreeview-nodes>
+				</astreeview-node>
+			</astreeview-nodes>
+		</astreeview-node>
+		<astreeview-node node-text="General Electricity" node-value="General Electricity" node-type="0" checked-state="2" open-state="1" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" target="text" navigate-url="text" tooltip="text">
+			<astreeview-nodes>
+				<astreeview-node node-text="Fine a bubble" node-value="Fine a bubble" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text">
+					<astreeview-nodes>
+						<astreeview-node node-text="By destination" node-value="By destination" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+						<astreeview-node node-text="By key words" node-value="By key words" node-type="0" checked-state="2" open-state="0" selected="false" enable-edit-context-menu="true" enable-delete-context-menu="true" node-icon="" navigate-url="text" target="text" tooltip="text"/>
+					</astreeview-nodes>
+				</astreeview-node>
+			</astreeview-nodes>
+		</astreeview-node>
+	</astreeview-nodes>
+</astreeview>

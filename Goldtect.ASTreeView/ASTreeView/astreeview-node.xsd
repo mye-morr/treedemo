@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 (http://www.altova.com) by Weijie (Geekees) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="astreeview-nodes">
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element ref="astreeview-node"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="astreeview-node">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="astreeview-nodes" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="node-text" type="xs:string" use="required"/>
+			<xs:attribute name="node-value" use="required"/>
+			<xs:attribute name="node-type" use="required"/>
+			<xs:attribute name="checked-state"/>
+			<xs:attribute name="open-state"/>
+			<xs:attribute name="selected"/>
+			<xs:attribute name="enable-edit-context-menu"/>
+			<xs:attribute name="enable-delete-context-menu"/>
+			<xs:attribute name="enable-add-context-menu"/>
+			<xs:attribute name="node-icon"/>
+			<xs:attribute name="enable-drag-drop"/>
+			<xs:attribute name="enable-siblings"/>
+			<xs:attribute name="enable-children"/>
+			<xs:attribute name="enable-checkbox"/>
+			<xs:attribute name="enable-selection"/>
+			<xs:attribute name="enable-open-close"/>
+			<xs:attribute name="is-virtual-node"/>
+			<xs:attribute name="virtual-nodes-count"/>
+			<xs:attribute name="virtual-parent-key"/>
+			<xs:attribute name="navigate-url"/>
+			<xs:attribute name="target"/>
+			<xs:attribute name="tooltip"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="astreeview">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="astreeview-nodes" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

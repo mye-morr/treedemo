@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYxrpfgRK3U+JfNtNK2+IrwAAAAACAAAAAAAQZgAAAAEAACAAAAAYLHYvw5w3Za1p8RGOSotlG2VcE21ASHO/VMNXQ1PiwAAAAAAOgAAAAAIAACAAAADmLi/vsewGMuw/tz8xt2o2QrmeFMJ4uLG/vPlEHCb1PCAAAAB9zMuA1usD2Vms4FopYJca6E+J5G8OJxFD7BOdU/JTwkAAAAD3uvzdKwcxt6zP70uENysHmurU3DpUk4BKdWAzM/FKrn68ydT6UPCLT/mjz228eK2WAjhpaO/GIROqpGFhSqfH</EncryptedPassword>
+    <_PublishTargetUrl>ftp://50.62.168.157/httpdocs/treedemo/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ASTreeViewDemo4_Sample_Data.xml">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="ASTreeViewEditNodeHandler.aspx">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="ASTreeViewRenameNodeHandler.aspx">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="bin/Goldtect.ASTreeView.dll">
+      <publishTime>10/31/2016 14:03:18</publishTime>
+    </File>
+    <File Include="bin/Goldtect.ASTreeViewDemo.dll">
+      <publishTime>12/18/2016 18:38:06</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>12/14/2016 09:10:03</publishTime>
+    </File>
+    <File Include="Images/demoIcons/amazon.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Images/demoIcons/ast.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Images/demoIcons/cadillac.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Images/demoIcons/gm.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Images/demoIcons/google.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Images/demoIcons/hummer.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Images/demoIcons/microsoft.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Images/demoIcons/msdn.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Images/demoIcons/picasa.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Images/demoIcons/saab.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/astreeview.css">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/astreeview.min.js">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/contextmenu.css">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/contextmenu.min.js">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/dropdowntreeview.css">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-bottom-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-checkbox-checked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-checkbox-half-checked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-checkbox-unchecked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-dragDrop-indicator1.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-dragDrop-indicator2.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-folder-open.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-folder.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-li-bg.jpg">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-middle-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-minus.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-node.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-plus.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-root-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-top-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/astreeview-vertical-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/bak_no_used_folder_icon.rar">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/windropdown-disabled.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/images/windropdown.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/README.MD">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/default.css">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-bottom-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-checkbox-checked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-checkbox-half-checked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-checkbox-unchecked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-dragDrop-indicator1.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-dragDrop-indicator2.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-folder-open.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-folder.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-middle-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-minus.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-node.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-plus.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-root-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-top-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/default/images/astreeview-vertical-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-bottom-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-checkbox-checked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-checkbox-half-checked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-checkbox-unchecked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-dragDrop-indicator1.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-dragDrop-indicator2.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-folder-open.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-folder.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-middle-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-minus.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-node.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-plus.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-root-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-top-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/astreeview-vertical-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/images/mac_leopard.rar">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/macOS/macOS.css">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-bottom-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-checkbox-checked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-checkbox-half-checked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-checkbox-unchecked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-dragDrop-indicator1.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-dragDrop-indicator2.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-folder-open.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-folder.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-middle-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-minus.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-node.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-plus.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-root-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-top-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/images/astreeview-vertical-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/right-left/right-left.css">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-bottom-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-checkbox-checked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-checkbox-half-checked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-checkbox-unchecked.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-dragDrop-indicator1.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-dragDrop-indicator2.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-folder-open.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-folder.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-middle-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-minus.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-node.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-plus.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-root-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-top-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/images/astreeview-vertical-line.gif">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/astreeview/themes/vista/vista.css">
+      <publishTime>05/01/2014 23:55:14</publishTime>
+    </File>
+    <File Include="Scripts/colresize.js">
+      <publishTime>12/06/2016 16:11:38</publishTime>
+    </File>
+    <File Include="Scripts/myStyle.css">
+      <publishTime>12/05/2016 15:57:23</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/18/2016 18:21:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

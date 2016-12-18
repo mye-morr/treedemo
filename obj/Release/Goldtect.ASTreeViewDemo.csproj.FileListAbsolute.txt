@@ -1,0 +1,6 @@
+C:\Users\michael\Documents\Visual Studio 2015\Projects\Goldtect.ASTreeViewSamples\bin\Goldtect.ASTreeViewDemo.dll.config
+C:\Users\michael\Documents\Visual Studio 2015\Projects\Goldtect.ASTreeViewSamples\bin\Goldtect.ASTreeViewDemo.dll
+C:\Users\michael\Documents\Visual Studio 2015\Projects\Goldtect.ASTreeViewSamples\bin\Goldtect.ASTreeViewDemo.pdb
+C:\Users\michael\Documents\Visual Studio 2015\Projects\Goldtect.ASTreeViewSamples\bin\Goldtect.ASTreeView.xml
+C:\Users\michael\Documents\Visual Studio 2015\Projects\Goldtect.ASTreeViewSamples\obj\Release\Goldtect.ASTreeViewDemo.dll
+C:\Users\michael\Documents\Visual Studio 2015\Projects\Goldtect.ASTreeViewSamples\obj\Release\Goldtect.ASTreeViewDemo.pdb

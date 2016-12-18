@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CBC8FF86-7F5C-4E46-945C-D7F54235A827}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Goldtect.ASTreeView</RootNamespace>
+    <AssemblyName>Goldtect.ASTreeView</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Goldtect.ASTreeView.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ASContextMenu\ASContextMenuHelper.cs" />
+    <Compile Include="ASContextMenu\ASContextMenuItem.cs" />
+    <Compile Include="ASContextMenu\ASContextMenu.cs" />
+    <Compile Include="ASTreeView\ASDropDownTreeView.cs" />
+    <Compile Include="ASTreeView\ASTreeViewDataSourceDescriptor.cs" />
+    <Compile Include="ASTreeView\ASTreeView.cs" />
+    <Compile Include="ASTreeView\ASTreeViewDataTableColumnDescriptor.cs" />
+    <Compile Include="ASTreeView\ASTreeViewEnum.cs" />
+    <Compile Include="ASTreeView\ASTreeViewExceptions.cs" />
+    <Compile Include="ASTreeView\ASTreeViewHelper.cs" />
+    <Compile Include="ASTreeView\ASTreeViewLinkNode.cs" />
+    <Compile Include="ASTreeView\ASTreeViewNode.cs" />
+    <Compile Include="ASTreeView\ASTreeViewNodeCheckedEvent.cs" />
+    <Compile Include="ASTreeView\ASTreeViewNodeSelectedEvent.cs" />
+    <Compile Include="ASTreeView\ASTreeViewTextNode.cs" />
+    <Compile Include="ASTreeView\ASTreeViewTheme.cs" />
+    <Compile Include="ASTreeView\ASTreeViewXMLDescriptor.cs" />
+    <Compile Include="ASTreeView\ASUpdatePanel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\Json\Disposable.cs" />
+    <Compile Include="Utilities\Json\IJsonArray.cs" />
+    <Compile Include="Utilities\Json\IJsonBoolean.cs" />
+    <Compile Include="Utilities\Json\IJsonNull.cs" />
+    <Compile Include="Utilities\Json\IJsonNumber.cs" />
+    <Compile Include="Utilities\Json\IJsonObject.cs" />
+    <Compile Include="Utilities\Json\IJsonString.cs" />
+    <Compile Include="Utilities\Json\IJsonType.cs" />
+    <Compile Include="Utilities\Json\IJsonTypeFactory.cs" />
+    <Compile Include="Utilities\Json\IJsonWriter.cs" />
+    <Compile Include="Utilities\Json\IndentedJsonWriter.cs" />
+    <Compile Include="Utilities\Json\JsonArray.cs" />
+    <Compile Include="Utilities\Json\JsonBoolean.cs" />
+    <Compile Include="Utilities\Json\JsonDemo.cs" />
+    <Compile Include="Utilities\Json\JsonNull.cs" />
+    <Compile Include="Utilities\Json\JsonNumber.cs" />
+    <Compile Include="Utilities\Json\JsonObject.cs" />
+    <Compile Include="Utilities\Json\JsonParser.cs" />
+    <Compile Include="Utilities\Json\JsonString.cs" />
+    <Compile Include="Utilities\Json\JsonStructType.cs" />
+    <Compile Include="Utilities\Json\JsonTokenType.cs" />
+    <Compile Include="Utilities\Json\JsonTypeCode.cs" />
+    <Compile Include="Utilities\Json\JsonTypeFactory.cs" />
+    <Compile Include="Utilities\Json\JsonTypeSkeleton.cs" />
+    <Compile Include="Utilities\Json\JsonWriter.cs" />
+    <Compile Include="Utilities\Xml\XmlHelper.cs" />
+    <Compile Include="Utilities\Xml\XMLValidationHelper.cs" />
+    <Compile Include="Utilities\Xml\XMLValueHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ASTreeView\astreeview-node.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

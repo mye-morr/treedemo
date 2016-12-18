@@ -1,0 +1,17 @@
+C:\gitprojects\Goldtect.ASTreeView.Source\Goldtect.ASTreeView\bin\Debug\Goldtect.ASTreeView.xml
+C:\gitprojects\Goldtect.ASTreeView.Source\Goldtect.ASTreeView\bin\Debug\Goldtect.ASTreeView.dll
+C:\gitprojects\Goldtect.ASTreeView.Source\Goldtect.ASTreeView\bin\Debug\Goldtect.ASTreeView.pdb
+C:\gitprojects\Goldtect.ASTreeView.Source\Goldtect.ASTreeView\obj\Debug\Goldtect.ASTreeView.dll
+C:\gitprojects\Goldtect.ASTreeView.Source\Goldtect.ASTreeView\obj\Debug\Goldtect.ASTreeView.pdb
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\bin\Debug\Goldtect.ASTreeView.xml
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\bin\Debug\Goldtect.ASTreeView.dll
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\bin\Debug\Goldtect.ASTreeView.pdb
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\bin\Debug\mscorlib.dll
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\bin\Debug\normidna.nlp
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\bin\Debug\normnfc.nlp
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\bin\Debug\normnfd.nlp
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\bin\Debug\normnfkc.nlp
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\bin\Debug\normnfkd.nlp
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\obj\Debug\Goldtect.ASTreeView.csprojResolveAssemblyReference.cache
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\obj\Debug\Goldtect.ASTreeView.dll
+C:\Users\Jeffry\Downloads\Goldtect.ASTreeView\obj\Debug\Goldtect.ASTreeView.pdb

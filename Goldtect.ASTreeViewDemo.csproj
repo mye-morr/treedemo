@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1A18485-DED6-450F-BA5F-64BA10968CFA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Goldtect.ASTreeViewDemo</RootNamespace>
+    <AssemblyName>Goldtect.ASTreeViewDemo</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Goldtect.ASTreeView">
+      <HintPath>..\packages\ASTreeView.1.6.0.4\lib\net40\Goldtect.ASTreeView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ASTreeViewDemo4_Sample_Data.xml" />
+    <Content Include="ASTreeViewEditNodeHandler.aspx" />
+    <Content Include="ASTreeViewRenameNodeHandler.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\demoIcons\amazon.gif" />
+    <Content Include="Images\demoIcons\ast.gif" />
+    <Content Include="Images\demoIcons\cadillac.gif" />
+    <Content Include="Images\demoIcons\gm.gif" />
+    <Content Include="Images\demoIcons\google.gif" />
+    <Content Include="Images\demoIcons\hummer.gif" />
+    <Content Include="Images\demoIcons\microsoft.gif" />
+    <Content Include="Images\demoIcons\msdn.gif" />
+    <Content Include="Images\demoIcons\picasa.gif" />
+    <Content Include="Images\demoIcons\saab.gif" />
+    <Content Include="Scripts\astreeview\astreeview.css" />
+    <Content Include="Scripts\astreeview\astreeview.min.js" />
+    <Content Include="Scripts\astreeview\contextmenu.css" />
+    <Content Include="Scripts\astreeview\contextmenu.min.js" />
+    <Content Include="Scripts\astreeview\dropdowntreeview.css" />
+    <Content Include="Scripts\astreeview\images\astreeview-bottom-line.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-checkbox-checked.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-checkbox-half-checked.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-checkbox-unchecked.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-dragDrop-indicator1.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-dragDrop-indicator2.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-folder-open.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-folder.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-li-bg.jpg" />
+    <Content Include="Scripts\astreeview\images\astreeview-middle-line.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-minus.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-node.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-plus.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-root-line.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-top-line.gif" />
+    <Content Include="Scripts\astreeview\images\astreeview-vertical-line.gif" />
+    <Content Include="Scripts\astreeview\images\windropdown-disabled.gif" />
+    <Content Include="Scripts\astreeview\images\windropdown.gif" />
+    <Content Include="Scripts\astreeview\themes\default\default.css" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-bottom-line.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-checkbox-checked.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-checkbox-half-checked.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-checkbox-unchecked.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-dragDrop-indicator1.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-dragDrop-indicator2.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-folder-open.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-folder.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-middle-line.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-minus.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-node.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-plus.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-root-line.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-top-line.gif" />
+    <Content Include="Scripts\astreeview\themes\default\images\astreeview-vertical-line.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-bottom-line.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-checkbox-checked.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-checkbox-half-checked.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-checkbox-unchecked.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-dragDrop-indicator1.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-dragDrop-indicator2.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-folder-open.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-folder.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-middle-line.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-minus.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-node.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-plus.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-root-line.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-top-line.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\images\astreeview-vertical-line.gif" />
+    <Content Include="Scripts\astreeview\themes\macOS\macOS.css" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-bottom-line.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-checkbox-checked.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-checkbox-half-checked.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-checkbox-unchecked.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-dragDrop-indicator1.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-dragDrop-indicator2.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-folder-open.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-folder.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-middle-line.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-minus.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-node.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-plus.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-root-line.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-top-line.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\images\astreeview-vertical-line.gif" />
+    <Content Include="Scripts\astreeview\themes\right-left\right-left.css" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-bottom-line.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-checkbox-checked.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-checkbox-half-checked.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-checkbox-unchecked.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-dragDrop-indicator1.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-dragDrop-indicator2.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-folder-open.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-folder.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-middle-line.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-minus.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-node.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-plus.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-root-line.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-top-line.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\images\astreeview-vertical-line.gif" />
+    <Content Include="Scripts\astreeview\themes\vista\vista.css" />
+    <Content Include="Scripts\colresize.js" />
+    <Content Include="Scripts\myStyle.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ASTreeViewEditNodeHandler.aspx.cs">
+      <DependentUpon>ASTreeViewEditNodeHandler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASTreeViewEditNodeHandler.aspx.designer.cs">
+      <DependentUpon>ASTreeViewEditNodeHandler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASTreeViewRenameNodeHandler.aspx.cs">
+      <DependentUpon>ASTreeViewRenameNodeHandler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASTreeViewRenameNodeHandler.aspx.designer.cs">
+      <DependentUpon>ASTreeViewRenameNodeHandler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OleDbHelper.cs" />
+    <Compile Include="PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="db\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\astreeview\themes\macOS\images\mac_leopard.rar" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\astreeview\README.MD" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\astreeview\images\bak_no_used_folder_icon.rar" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\bc-treedemo.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>19374</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+</Project>
