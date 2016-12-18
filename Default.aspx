@@ -46,7 +46,7 @@
        
         <asp:UpdatePanel ID="upPanel2" runat="server">
             <ContentTemplate>
-            <div style="border:2px solid red;padding:6px;color:red;display:block;">
+            <div style="border:2px solid red;padding:6px;color:red;display:block;display:none">
                 <h3>You can hide this part by set style="display:none;"</h3>
                 <h3>For Demo purpose, cascade situation is not handled. See the code behind</h3>
                 <asp:TextBox ID="txtNodeValue" runat="server"></asp:TextBox>
